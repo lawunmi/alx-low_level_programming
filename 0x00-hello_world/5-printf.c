@@ -1,5 +1,8 @@
 #include <stdio.h>
-/* using puts function to print */
+/**
+ *main: using puts function to print
+ *Return: 0
+ */
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
