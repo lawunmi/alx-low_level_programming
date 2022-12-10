@@ -9,7 +9,9 @@ int main(void)
 	int num;
 
 	for (num = 0; num <= 25; num++)
+	{
 		putchar(num);
 		putchar('\n');
+	}	
 	return (0);
 }
