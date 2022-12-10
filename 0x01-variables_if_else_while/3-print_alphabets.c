@@ -6,7 +6,6 @@
  */
 int main(void)
 {
-	putchar("abcdefghijklmnopqrstuvwxyz");
-	putchar("ABCDEFGHIJKLMNOPQRSTUVWXYZ\n");
-	return (0);
+
 }
+
