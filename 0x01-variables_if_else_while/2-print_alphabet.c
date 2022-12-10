@@ -10,8 +10,8 @@ int main(void)
 
 	for (num = 0; num <= 25; num++)
 	{
-		putchar(num);
+		putchar('a' + num);
 		putchar('\n');
-	}	
+	}
 	return (0);
 }
