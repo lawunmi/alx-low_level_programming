@@ -1,11 +1,9 @@
 #include <stdio.h>
 /**
- *
  * main - prints all possible different combinations of three digits.
  * Return: 0
  *
  */
-
 int main(void)
 {
 	int i;
@@ -16,7 +14,7 @@ int main(void)
 	{
 		for (j = '1'; j <= '8'; j++)
 		{
-			for (k = '2'; j <= '9'; k++)
+			for (k = '2'; k <= '9'; k++)
 			{
 				if (i < j && j < k)
 				{
@@ -40,4 +38,3 @@ int main(void)
 	}
 	return (0);
 }
-
