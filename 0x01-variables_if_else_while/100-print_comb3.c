@@ -26,6 +26,10 @@ int main(void)
 				putchar(' ');
 			}
 		}
+		if (j >= '9')
+		{
+			j = '0';
+		}
 	}
 	return (0);
 }
