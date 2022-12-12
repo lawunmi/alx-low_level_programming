@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - program that prints all possible combinations of two two digit numbers
+ * main - program that prints all possible combinations of
+ * two two digit numbers without repetition
  * Return: 0
  *
  */
@@ -13,7 +14,7 @@ int main(void)
 	{
 		for (j = 0; j < 100; j++)
 		{
-			if (i < j && i != j)
+			if ((i < j) && (i != j))
 			{
 				putchar((i / 10) + '0');
 				putchar((i % 10) + '0');
