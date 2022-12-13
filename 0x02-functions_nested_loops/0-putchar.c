@@ -7,8 +7,7 @@
 int main(void)
 {
 	char word[10] = "_putchar";
-	putchar(word);
-	putchar('\n');
+	printf("%s\n", word);
 
 	return (0);
 }
