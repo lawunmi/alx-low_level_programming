@@ -10,6 +10,7 @@ int main(void)
 
 	a = 0;
 	b = 1;
+	ans = 0;
 
 	for (cnt = 0; cnt < 50; cnt++)
 	{
@@ -23,6 +24,6 @@ int main(void)
 		}
 
 	}
-	printf("%lu\n", ans);
+	printf("%ld\n", ans);
 	return (0);
 }
