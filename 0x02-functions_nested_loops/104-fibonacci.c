@@ -8,8 +8,8 @@ int main(void)
 {
 	long a, b, cnt, res;
 
-	a = 1;
-	b = 2;
+	a = 0;
+	b = 1;
 
 	for (cnt = 0; cnt < 99; cnt++)
 	{
