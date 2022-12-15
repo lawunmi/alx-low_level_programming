@@ -7,6 +7,7 @@
 int main(void)
 {
 	long a, b, cnt, res, ans;
+
 	a = 0;
 	b = 1;
 
@@ -16,12 +17,12 @@ int main(void)
 		a = b;
 		b = res;
 
-		if (res < 4000000 && (res % 2 == 0))
+		if ((res < 4000000) && (res % 2 == 0))
 		{
 			ans += res;
 		}
 
 	}
-	printf("%ld\n", ans);
+	printf("%lu\n", ans);
 	return (0);
 }
