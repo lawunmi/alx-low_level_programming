@@ -4,11 +4,19 @@
  */
 void times_table(void)
 {
-	int i, res;
+	int i, j, n,res;
 
-	for (i = 0; i <= 12; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		res = 9 * i;
+		n = i;
+		for (j = 0; j <= 9; j++)
+		{
+			res = n * j;
+			_putchar(res);
+			_putchar(',');
+			_putchar(' ');
+		}
+		_putchar('\n');
 	}
-	_putchar(res);
+	return (0);
 }
