@@ -2,11 +2,12 @@
 /**
  * main - first 50 Fibonacci numbers, starting with 1 and
  * followed by a new line
- * Return : 0
+ * Return: 0
  */
 int main(void)
 {
 	long a, b, cnt, res;
+
 	a = 0;
 	b = 1;
 
