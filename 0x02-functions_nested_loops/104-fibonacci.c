@@ -11,15 +11,15 @@ int main(void)
 	a = 0;
 	b = 1;
 
-	for (cnt = 0; cnt < 99; cnt++)
+	for (cnt = 0; cnt < 98; cnt++)
 	{
 		res = a + b;
 		a = b;
 		b = res;
 
-		printf("%lu", res);
+		printf("%ld", res);
 
-		if (cnt == 98)
+		if (cnt == 97)
 		{
 			putchar('\n');
 		}
