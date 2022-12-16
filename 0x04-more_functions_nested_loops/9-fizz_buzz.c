@@ -2,7 +2,7 @@
 
 /**
  * main - prints the numbers from 1 to 100 and FizzBuzz
- * Return: Nothing
+ * Return: 0
  *
  */
 
@@ -28,7 +28,8 @@ int main(void)
 		{
 			printf("%d", i);
 		}
-		printf(" ");
+		if (i != 100)
+			printf(" ");
 	}
 	printf("\n");
 	return (0);
