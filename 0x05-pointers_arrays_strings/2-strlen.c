@@ -12,10 +12,10 @@ int _strlen(char *s)
 	int cnt = 0;
 	int len = strlen(s);
 
-	for(i = 0; i < len; i++)
+	for( i = 0; i < len; i++)
 	{
-		if((s[i] >= 'a' && s[i] <= 'z') || (s[i] >= 'A' && s[i] <= 'Z'))
+		if( s[i] != '\0')
 			cnt++;
 	}
-	return cnt;
+	return (cnt);
 }
