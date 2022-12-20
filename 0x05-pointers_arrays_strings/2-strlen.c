@@ -14,7 +14,7 @@ int _strlen(char *s)
 
 	for(i = 0; i < len; i++)
 	{
-		if(isalpha(s[i]))
+		if((s[i] >= 'a' && s[i] <= 'z') || (s[i] >= 'A' && s[i] <= 'Z'))
 			cnt++;
 	}
 	return cnt;
