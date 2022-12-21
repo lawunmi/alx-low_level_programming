@@ -1,5 +1,5 @@
 #include "main.h"
-#include <strinhg.h>
+#include <string.h>
 /**
  * puts_half - print the second half of the string
  * @str: arguement to be passed
